@@ -1,7 +1,7 @@
 //
 //  DKNotificationManager.h
 //
-//  Created by Denis Kutlubaev on 17.03.13.
+//  Created by Denis Kutlubaev on 17.09.14.
 //
 //  This code is distributed under the terms and conditions of the MIT license.
 //  Copyright (c) 2014 Dennis Kutlubaev (kutlubaev.denis@gmail.com)
@@ -29,14 +29,19 @@
 
 @interface DKNotificationManager : NSObject
 
+// Shared instance, singleton
 + (DKNotificationManager*)sharedManager;
 
+// Sets a local notification with a week interval. AlertBody is a text, that user sees when notification comes. UserInfo is used to identify different notifications. You can send ID of a citation for example that will be in the notification.
 - (void)setLocalNotificationWithAlertBody:(NSString *)alertBody userInfo:(NSDictionary *)userInfo;
 
+// Removes local notifcation with a particular userInfo.
 - (void)removeLocalNotificationWithUserInfo:(NSDictionary *)userInfo;
 
+// Removes all local notifications.
 - (void)removeAllLocalNotifications;
 
+// Used to switch notifications on and off. 
 - (void)switchNotifications:(id)sender;
 
 @end

@@ -37,6 +37,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    // We create a notification. It will come after 10 seconds and after 1 week with a period of 1 week.
+    [self createNotification];
+    
     return YES;
 }
 

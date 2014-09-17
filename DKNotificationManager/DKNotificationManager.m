@@ -1,7 +1,7 @@
 //
 //  DKNotificationManager.m
 //
-//  Created by Denis Kutlubaev on 17.03.13.
+//  Created by Denis Kutlubaev on 17.09.14.
 //
 //  This code is distributed under the terms and conditions of the MIT license.
 //  Copyright (c) 2014 Dennis Kutlubaev (kutlubaev.denis@gmail.com)
@@ -67,7 +67,6 @@
     
     UILocalNotification *localNotification = [[UILocalNotification alloc] init];
     localNotification.timeZone = [NSTimeZone defaultTimeZone];
-    localNotification.alertAction = @"Посмотреть";
     [localNotification setSoundName:UILocalNotificationDefaultSoundName];
     
     localNotification.repeatInterval = NSWeekCalendarUnit;
@@ -113,10 +112,11 @@
 
 - (void)switchNotifications:(id)sender
 {
-    UISwitch *switcher = (UISwitch*)sender;
-    BOOL notifications = switcher.on;
+    //This is an example, how this method can be realised. When user switches off notifications, I ask him, if he really wants to do that. Then I save the state of switch to the NSUserDefaults and remove all notifications. I use a pod 'BlockAlertsAnd-ActionSheets' to show dialog box.
     
-    /*if (! notifications) {
+    /*UISwitch *switcher = (UISwitch*)sender;
+    BOOL notifications = switcher.on;
+    if (! notifications) {
         
         BlockAlertView *alert = [[BlockAlertView alloc]  initWithTitle:@"Вы уверены?" message:@"При выключении данной опции все ранее запланированные напоминания удаляются."];
         [alert setDestructiveButtonWithTitle:@"Выключить" block:^{
