@@ -27,7 +27,13 @@
 
 #import <Foundation/Foundation.h>
 
+
+FOUNDATION_EXPORT NSString *const NotificationKey;
+
+
 @interface DKNotificationManager : NSObject
+
+@property(nonatomic) NSCalendarUnit repeatInterval;      // 0 means don't repeat
 
 // Shared instance, singleton
 + (DKNotificationManager*)sharedManager;

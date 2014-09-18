@@ -33,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F89F500B19CADDA2009035EA /* DKNotificationManagerSampleProject copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DKNotificationManagerSampleProject copy-Info.plist"; path = "/Users/wzbozon/Documents/Github/DKNotificationManager/DKNotificationManagerSampleProject/DKNotificationManagerSampleProject copy-Info.plist"; sourceTree = "<absolute>"; };
 		F8DBB7A919C7322000164B28 /* DKNotificationManagerSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKNotificationManagerSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DBB7AC19C7322000164B28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F8DBB7AE19C7322000164B28 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,6 +86,7 @@
 				F8DBB7CB19C7322000164B28 /* DKNotificationManagerSampleProjectTests */,
 				F8DBB7AB19C7322000164B28 /* Frameworks */,
 				F8DBB7AA19C7322000164B28 /* Products */,
+				F89F500B19CADDA2009035EA /* DKNotificationManagerSampleProject copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F8DBB7A819C7322000164B28 /* DKNotificationManagerSampleProject */ = {
+		F8DBB7A819C7322000164B28 /* DKNotification */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8DBB7D519C7322000164B28 /* Build configuration list for PBXNativeTarget "DKNotificationManagerSampleProject" */;
+			buildConfigurationList = F8DBB7D519C7322000164B28 /* Build configuration list for PBXNativeTarget "DKNotification" */;
 			buildPhases = (
 				F8DBB7A519C7322000164B28 /* Sources */,
 				F8DBB7A619C7322000164B28 /* Frameworks */,
@@ -173,14 +175,14 @@
 			);
 			dependencies = (
 			);
-			name = DKNotificationManagerSampleProject;
+			name = DKNotification;
 			productName = DKNotificationManagerSampleProject;
 			productReference = F8DBB7A919C7322000164B28 /* DKNotificationManagerSampleProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F8DBB7C319C7322000164B28 /* DKNotificationManagerSampleProjectTests */ = {
+		F8DBB7C319C7322000164B28 /* DKNotificationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8DBB7D819C7322000164B28 /* Build configuration list for PBXNativeTarget "DKNotificationManagerSampleProjectTests" */;
+			buildConfigurationList = F8DBB7D819C7322000164B28 /* Build configuration list for PBXNativeTarget "DKNotificationTests" */;
 			buildPhases = (
 				F8DBB7C019C7322000164B28 /* Sources */,
 				F8DBB7C119C7322000164B28 /* Frameworks */,
@@ -191,7 +193,7 @@
 			dependencies = (
 				F8DBB7CA19C7322000164B28 /* PBXTargetDependency */,
 			);
-			name = DKNotificationManagerSampleProjectTests;
+			name = DKNotificationTests;
 			productName = DKNotificationManagerSampleProjectTests;
 			productReference = F8DBB7C419C7322000164B28 /* DKNotificationManagerSampleProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -223,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8DBB7A819C7322000164B28 /* DKNotificationManagerSampleProject */,
-				F8DBB7C319C7322000164B28 /* DKNotificationManagerSampleProjectTests */,
+				F8DBB7A819C7322000164B28 /* DKNotification */,
+				F8DBB7C319C7322000164B28 /* DKNotificationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -273,7 +275,7 @@
 /* Begin PBXTargetDependency section */
 		F8DBB7CA19C7322000164B28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F8DBB7A819C7322000164B28 /* DKNotificationManagerSampleProject */;
+			target = F8DBB7A819C7322000164B28 /* DKNotification */;
 			targetProxy = F8DBB7C919C7322000164B28 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -332,6 +334,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +367,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -448,21 +452,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8DBB7D519C7322000164B28 /* Build configuration list for PBXNativeTarget "DKNotificationManagerSampleProject" */ = {
+		F8DBB7D519C7322000164B28 /* Build configuration list for PBXNativeTarget "DKNotification" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8DBB7D619C7322000164B28 /* Debug */,
 				F8DBB7D719C7322000164B28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F8DBB7D819C7322000164B28 /* Build configuration list for PBXNativeTarget "DKNotificationManagerSampleProjectTests" */ = {
+		F8DBB7D819C7322000164B28 /* Build configuration list for PBXNativeTarget "DKNotificationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8DBB7D919C7322000164B28 /* Debug */,
 				F8DBB7DA19C7322000164B28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

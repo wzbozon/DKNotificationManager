@@ -27,6 +27,10 @@
 
 #import "DKNotificationManager.h"
 
+
+NSString *const NotificationKey = @"NotificationKey";
+
+
 @implementation DKNotificationManager
 
 
@@ -36,6 +40,9 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         sharedManager = [[DKNotificationManager alloc] init];
+        
+        // By default repeat interval is 1 week
+        sharedManager.repeatInterval = NSWeekCalendarUnit;
     });
     
     return sharedManager;
@@ -69,7 +76,7 @@
     localNotification.timeZone = [NSTimeZone defaultTimeZone];
     [localNotification setSoundName:UILocalNotificationDefaultSoundName];
     
-    localNotification.repeatInterval = NSWeekCalendarUnit;
+    localNotification.repeatInterval = self.repeatInterval;
     localNotification.fireDate = notificationDate;
     
     localNotification.alertBody = alertBody;

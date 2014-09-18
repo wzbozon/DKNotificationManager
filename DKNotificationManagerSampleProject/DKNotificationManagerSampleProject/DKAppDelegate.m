@@ -74,13 +74,14 @@
 - (void)deleteNotification
 {
     // Deletes local notification that matches this user info
-    [[DKNotificationManager sharedManager] removeLocalNotificationWithUserInfo:@{@"UInfoKeyFavoriteCitationID": @"1"}];
+    [[DKNotificationManager sharedManager] removeLocalNotificationWithUserInfo:@{NotificationKey: @"1"}];
 }
 
 - (void)createNotification
 {
     // Creates local notification
-    [[DKNotificationManager sharedManager] setLocalNotificationWithAlertBody:@"Hello, world!" userInfo:@{@"UInfoKeyFavoriteCitationID": @"1"}];
+    [[DKNotificationManager sharedManager] setRepeatInterval:NSWeekCalendarUnit];
+    [[DKNotificationManager sharedManager] setLocalNotificationWithAlertBody:@"Hello, world!" userInfo:@{NotificationKey: @"1"}];
 }
 
 @end

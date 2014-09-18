@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F8DBB7A819C7322000164B28"
-               BuildableName = "DKNotificationManagerSampleProject.app"
-               BlueprintName = "DKNotification"
+               BlueprintIdentifier = "F89F4FFB19CADDA2009035EA"
+               BuildableName = "DKNotificationManagerSampleProject copy.app"
+               BlueprintName = "DKNotificationManagerSampleProject copy"
                ReferencedContainer = "container:DKNotificationManagerSampleProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,23 +28,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F8DBB7C319C7322000164B28"
-               BuildableName = "DKNotificationManagerSampleProjectTests.xctest"
-               BlueprintName = "DKNotificationTests"
-               ReferencedContainer = "container:DKNotificationManagerSampleProject.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F8DBB7A819C7322000164B28"
-            BuildableName = "DKNotificationManagerSampleProject.app"
-            BlueprintName = "DKNotification"
+            BlueprintIdentifier = "F89F4FFB19CADDA2009035EA"
+            BuildableName = "DKNotificationManagerSampleProject copy.app"
+            BlueprintName = "DKNotificationManagerSampleProject copy"
             ReferencedContainer = "container:DKNotificationManagerSampleProject.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,9 +51,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F8DBB7A819C7322000164B28"
-            BuildableName = "DKNotificationManagerSampleProject.app"
-            BlueprintName = "DKNotification"
+            BlueprintIdentifier = "F89F4FFB19CADDA2009035EA"
+            BuildableName = "DKNotificationManagerSampleProject copy.app"
+            BlueprintName = "DKNotificationManagerSampleProject copy"
             ReferencedContainer = "container:DKNotificationManagerSampleProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -79,9 +69,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F8DBB7A819C7322000164B28"
-            BuildableName = "DKNotificationManagerSampleProject.app"
-            BlueprintName = "DKNotification"
+            BlueprintIdentifier = "F89F4FFB19CADDA2009035EA"
+            BuildableName = "DKNotificationManagerSampleProject copy.app"
+            BlueprintName = "DKNotificationManagerSampleProject copy"
             ReferencedContainer = "container:DKNotificationManagerSampleProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
