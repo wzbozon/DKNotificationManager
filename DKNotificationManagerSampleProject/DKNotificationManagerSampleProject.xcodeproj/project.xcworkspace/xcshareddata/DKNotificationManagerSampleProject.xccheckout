@@ -10,29 +10,29 @@
 	<string>DKNotificationManagerSampleProject</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>C0BBCA83-1247-4DFA-9027-949F491070E7</key>
+		<key>B4219EDF5AACA5CAFA1563F5BB8912CD94573F28</key>
 		<string>https://github.com/wzbozon/DKNotificationManager.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>DKNotificationManagerSampleProject/DKNotificationManagerSampleProject.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C0BBCA83-1247-4DFA-9027-949F491070E7</key>
+		<key>B4219EDF5AACA5CAFA1563F5BB8912CD94573F28</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/wzbozon/DKNotificationManager.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C0BBCA83-1247-4DFA-9027-949F491070E7</string>
+	<string>B4219EDF5AACA5CAFA1563F5BB8912CD94573F28</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C0BBCA83-1247-4DFA-9027-949F491070E7</string>
+			<string>B4219EDF5AACA5CAFA1563F5BB8912CD94573F28</string>
 			<key>IDESourceControlWCCName</key>
 			<string>DKNotificationManager</string>
 		</dict>

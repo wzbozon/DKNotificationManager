@@ -34,7 +34,7 @@
 
 /* Begin PBXFileReference section */
 		F89F500B19CADDA2009035EA /* DKNotificationManagerSampleProject copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DKNotificationManagerSampleProject copy-Info.plist"; path = "/Users/wzbozon/Documents/Github/DKNotificationManager/DKNotificationManagerSampleProject/DKNotificationManagerSampleProject copy-Info.plist"; sourceTree = "<absolute>"; };
-		F8DBB7A919C7322000164B28 /* DKNotificationManagerSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKNotificationManagerSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DBB7A919C7322000164B28 /* DKNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DBB7AC19C7322000164B28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F8DBB7AE19C7322000164B28 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F8DBB7B019C7322000164B28 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -45,7 +45,7 @@
 		F8DBB7BB19C7322000164B28 /* DKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAppDelegate.h; sourceTree = "<group>"; };
 		F8DBB7BC19C7322000164B28 /* DKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAppDelegate.m; sourceTree = "<group>"; };
 		F8DBB7BE19C7322000164B28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F8DBB7C419C7322000164B28 /* DKNotificationManagerSampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKNotificationManagerSampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DBB7C419C7322000164B28 /* DKNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DBB7C519C7322000164B28 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F8DBB7CD19C7322000164B28 /* DKNotificationManagerSampleProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DKNotificationManagerSampleProjectTests-Info.plist"; sourceTree = "<group>"; };
 		F8DBB7CF19C7322000164B28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -93,8 +93,8 @@
 		F8DBB7AA19C7322000164B28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8DBB7A919C7322000164B28 /* DKNotificationManagerSampleProject.app */,
-				F8DBB7C419C7322000164B28 /* DKNotificationManagerSampleProjectTests.xctest */,
+				F8DBB7A919C7322000164B28 /* DKNotification.app */,
+				F8DBB7C419C7322000164B28 /* DKNotificationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,7 +177,7 @@
 			);
 			name = DKNotification;
 			productName = DKNotificationManagerSampleProject;
-			productReference = F8DBB7A919C7322000164B28 /* DKNotificationManagerSampleProject.app */;
+			productReference = F8DBB7A919C7322000164B28 /* DKNotification.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F8DBB7C319C7322000164B28 /* DKNotificationTests */ = {
@@ -195,7 +195,7 @@
 			);
 			name = DKNotificationTests;
 			productName = DKNotificationManagerSampleProjectTests;
-			productReference = F8DBB7C419C7322000164B28 /* DKNotificationManagerSampleProjectTests.xctest */;
+			productReference = F8DBB7C419C7322000164B28 /* DKNotificationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */

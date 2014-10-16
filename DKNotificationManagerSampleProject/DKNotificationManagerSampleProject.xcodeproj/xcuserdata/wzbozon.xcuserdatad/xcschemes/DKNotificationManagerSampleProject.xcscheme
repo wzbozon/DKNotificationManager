@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F8DBB7A819C7322000164B28"
-               BuildableName = "DKNotificationManagerSampleProject.app"
+               BuildableName = "DKNotification.app"
                BlueprintName = "DKNotification"
                ReferencedContainer = "container:DKNotificationManagerSampleProject.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F8DBB7C319C7322000164B28"
-               BuildableName = "DKNotificationManagerSampleProjectTests.xctest"
+               BuildableName = "DKNotificationTests.xctest"
                BlueprintName = "DKNotificationTests"
                ReferencedContainer = "container:DKNotificationManagerSampleProject.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F8DBB7A819C7322000164B28"
-            BuildableName = "DKNotificationManagerSampleProject.app"
+            BuildableName = "DKNotification.app"
             BlueprintName = "DKNotification"
             ReferencedContainer = "container:DKNotificationManagerSampleProject.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F8DBB7A819C7322000164B28"
-            BuildableName = "DKNotificationManagerSampleProject.app"
+            BuildableName = "DKNotification.app"
             BlueprintName = "DKNotification"
             ReferencedContainer = "container:DKNotificationManagerSampleProject.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F8DBB7A819C7322000164B28"
-            BuildableName = "DKNotificationManagerSampleProject.app"
+            BuildableName = "DKNotification.app"
             BlueprintName = "DKNotification"
             ReferencedContainer = "container:DKNotificationManagerSampleProject.xcodeproj">
          </BuildableReference>

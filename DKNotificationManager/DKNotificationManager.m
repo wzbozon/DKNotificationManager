@@ -26,9 +26,19 @@
 //
 
 #import "DKNotificationManager.h"
+/*#import <AFNetworking/AFNetworking.h>
+#import <BlockAlertsAnd-ActionSheets/BlockAlertView.h>*/
 
 
 NSString *const NotificationKey = @"NotificationKey";
+
+
+@interface DKNotificationManager()
+{
+    //AFHTTPRequestOperationManager *_manager;
+}
+
+@end
 
 
 @implementation DKNotificationManager
@@ -148,6 +158,54 @@ NSString *const NotificationKey = @"NotificationKey";
         [[NSUserDefaults standardUserDefaults] setBool:notifications forKey:UDKeyLocalNotifications];
         [[NSUserDefaults standardUserDefaults] synchronize];
     }*/
+}
+
+
+- (void)addDeviceTokenToServerDb:(NSData *)token onComplete:(void (^)(NSString* error))completionBlock
+{
+    /*NSString *newToken = [token description];
+    newToken = [newToken stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"<>"]];
+    newToken = [newToken stringByReplacingOccurrencesOfString:@" " withString:@""];
+    
+    _manager = [AFHTTPRequestOperationManager manager];
+    _manager.responseSerializer = [AFJSONResponseSerializer serializer];
+    _manager.requestSerializer = [AFJSONRequestSerializer serializer];
+    [_manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+    [_manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+    
+    NSString *urlString = [NSString stringWithFormat:@"%@/%@/", ServerApiURL, ServerMethodAddToken];
+    NSString *bundleId = [[NSBundle mainBundle] bundleIdentifier];
+    
+    NSLog(@"urlString:%@", urlString);
+    NSLog(@"Token:%@", newToken);
+    NSLog(@"Bundle:%@", bundleId);
+    
+    [_manager POST:urlString parameters:@{@"token": newToken, @"bundle":bundleId} success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        
+        NSLog(@"responseObject: %@", responseObject);
+        completionBlock(nil);
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        
+        NSLog(@"error: %@", error);
+        completionBlock([error description]);
+        
+    }];*/
+}
+
+
+- (void)registerForLocalNotifications:(UIApplication *)application
+{
+    if ([UIApplication instancesRespondToSelector:@selector(registerUserNotificationSettings:)]){
+        [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound categories:nil]];
+    }
+}
+
+
+- (void)registerForPushNotifications
+{
+    [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
+     (UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
 }
 
 

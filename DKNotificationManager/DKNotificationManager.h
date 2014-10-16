@@ -50,4 +50,13 @@ FOUNDATION_EXPORT NSString *const NotificationKey;
 // Used to switch notifications on and off. 
 - (void)switchNotifications:(id)sender;
 
+// Sends device token to your server 
+- (void)addDeviceTokenToServerDb:(NSData *)token onComplete:(void (^)(NSString* error))completionBlock;
+
+// Register for local notifications (user gives permission)
+- (void)registerForLocalNotifications:(UIApplication *)application;
+
+// Register for push notifications
+- (void)registerForPushNotifications;
+
 @end
